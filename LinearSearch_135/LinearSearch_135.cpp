@@ -8,7 +8,15 @@ int i; // index of array element
 
 void input()
 {
-
+    while (true)
+    {
+        cout << "Enter the number of element is the array: ";
+        cin >> n;
+        if ((n > 0) && (n <= 20))
+            break;
+        else
+            cout << "\nArray should have minimum 1 and maximum 20 element.\n\n";
+    }
 }
 int main()
 {
