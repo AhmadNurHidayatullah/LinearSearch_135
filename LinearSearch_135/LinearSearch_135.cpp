@@ -63,9 +63,11 @@ void LinearSearch()
     } while ((ch == 'y') || (ch == 'Y'));
 }
 
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    LinearSearch();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
